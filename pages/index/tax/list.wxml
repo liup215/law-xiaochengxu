@@ -1,0 +1,16 @@
+<view class="needsContainer">
+  <view wx:if="{{length==0}}">暂无任何数据</view>
+  <view class="needs_outline" wx:for="{{taxData}}" wx:for-index="idx" wx:for-item="item" wx:key="id">
+    <view><icon type='info' size='60'></icon></view>
+    <view class='needs_content' data-id="{{item.id}}" bindtap='getDetail'>
+      <view class='title'>
+        <text >{{item.name}},{{item.id}}</text>
+      </view>
+      <view class='content'>
+        <view class='item'>{{item.contactAddress}}</view>
+        <view class='item'>{{item.updateTime}}</view>
+        <view class='item'>{{item.visitCount}}次浏览</view>
+      </view>
+    </view>
+  </view>
+</view>

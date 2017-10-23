@@ -1,0 +1,3 @@
+<text>请选择要添加的需求种类</text>
+<button bindtap='addTax'>税务需求</button>
+<button bindtap='addLaw'>法务需求</button>

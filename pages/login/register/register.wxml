@@ -1,0 +1,23 @@
+<form bindsubmit="register">
+  <view class='section'>
+    <input name='phoneNumber' type='text' placeholder='请输入手机号' confirm-type='done'></input>
+  </view>
+  
+  <view style='display:flex;flex-direction:row;align-items: center;'>
+    <view class='section'>
+      <input name='verifyCode' type='text' placeholder='请输入验证码' confirm-type='done'></input>
+    </view>
+    <button class="verify">
+      <text style='font-size:0.6em;'>获取验证码(60s)</text>
+    </button>
+  </view>
+
+  <view class='section'>
+    <input name='password' type='text' placeholder='请输入密码' confirm-type='done'></input>
+  </view>
+
+  <view class='section'>
+    <input name='passwordConfirm' type='text' placeholder='请确认密码' confirm-type='done'></input>
+  </view>
+  <button form-type='submit'>注册</button>
+</form>

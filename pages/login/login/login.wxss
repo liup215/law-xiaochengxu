@@ -1,0 +1,8 @@
+/* pages/login/login.wxss */
+.section{
+  border: solid;
+  border-width: 0.1em;
+  border-color: #666666;
+  height: full;
+  margin: 0.5em;
+}

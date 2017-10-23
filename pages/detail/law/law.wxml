@@ -1,0 +1,49 @@
+<view class='detail_container'>
+  <view class='title'>{{tax.name}}</view>
+  <view class='info'>
+    <view class='row'>
+      <view class='block'>
+        <view class='item_key'>类型</view>
+        <view class='item_value'>法务项目</view>
+      </view>
+      <view class='block'>
+        <view class='item_key'>行业</view>
+        <view class='item_value'>{{tax.industry}}</view>
+      </view>
+      <view class='block'>
+        <view class='item_key'>地区</view>
+        <view class='item_value'>{{tax.contactAddress}}</view>
+      </view>
+    </view>
+    <view class='row'>
+      <view class='block'>
+        <view class='item_key'>产值</view>
+        <view class='item_value'>法务项目</view>
+      </view>
+      <view class='block'>
+        <view class='item_key'>产量</view>
+        <view class='item_value'>{{tax.industry}}</view>
+      </view>
+      <view class='block'>
+        <view class='item_key'>更新</view>
+        <view class='item_value'>{{tax.contactAddress}}</view>
+      </view>
+    </view>
+    <view class='detail'>
+      <view class='item'>
+        <view class='header'>需求详情</view>
+        <view class='body'>
+          <view class='par'>{{tax.caseDetail}}</view>
+        </view>
+      </view>
+      
+      <view class='item'>
+        <view class='header'>联系方式</view>
+        <view class='body'>
+          <view class='par'>{{tax.contact}}</view>
+          <view class='par'>{{tax.phoneNumber}}</view>
+        </view>
+      </view>     
+    </view>
+  </view>
+</view>

@@ -1,0 +1,46 @@
+<form bindsubmit="formBindsubmit">
+  <view class='section'>
+    <input name='name' type='text' placeholder='请输入项目名称' confirm-type='done'></input>
+  </view>
+  <view class='section'>
+    <input name='contact' type='text' placeholder='请输入联系人' confirm-type='done'></input>
+  </view>
+  <view class='section'>
+    <input name='phoneNumber' type='text' placeholder='请输入联系电话' confirm-type='done'></input>
+  </view>
+  <view class='section'>
+    <input name='scale' type='text' placeholder='请输入企业规模' confirm-type='done'></input>
+  </view>
+  <view class='section'>
+    <input name='assets' type='text' placeholder='请输入企业产值（万元）' confirm-type='done'></input>
+  </view>
+  <view class='section'>
+    <input name='output' type='text' placeholder='请输入企业产量（万元）' confirm-type='done'></input>
+  </view>
+  <view class='section'>
+    <picker mode="multiSelector" bindchange="areaChange" bindcolumnchange="childAreaChange" value="{{index}}" range="{{contactAddress}}" range-key='name'>
+    <text style='color:#666666'>请选择地区</text>
+    </picker>
+    <input name='address' type='text' placeholder='请填写详细地址' confirm-type='done'></input>
+  </view>
+  <view class='section'>
+    <input name='workSpace' type='text' placeholder='请输入办公地址' confirm-type='done'></input>
+  </view>
+  <view class='section'>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{industry}}">
+    <text style='color:#666666'>请选择行业</text>
+    </picker>
+  </view>
+  <view class='section'>
+    <input name='caseDetail' type='text' placeholder='请输入项目需求' confirm-type='done'></input>
+  </view>
+  <view class='section'>
+    <picker mode="multiSelector" bindchange="bindPickerChange" value="{{index}}" range="{{workType}}">
+    <text style='color:#666666'>请选择工作类型</text>
+  </picker>
+  </view>
+  <view class='section'>
+    <input name='post' type='text' placeholder='请输入工作岗位' confirm-type='done'></input>
+  </view>
+  <button form-type='submit'>提交</button>
+</form>

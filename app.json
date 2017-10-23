@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/tax/tax",
+    "pages/detail/law/law",
+    "pages/user/index",
+    "pages/index/tax/list",
+    "pages/index/law/list",
+    "pages/myneeds/index",
+    "pages/myneeds/tax/list",
+    "pages/myneeds/law/list",
+    "pages/myneeds/add",
+    "pages/myneeds/tax/add/add",
+    "pages/myneeds/law/add/add",
+    "pages/login/login/login",
+    "pages/login/register/register"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Hiexam",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "需求列表"
+      },
+      {
+        "pagePath": "pages/myneeds/index",
+        "text": "我的需求"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

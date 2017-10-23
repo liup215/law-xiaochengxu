@@ -1,0 +1,4 @@
+<text>请选择您要进行的操作</text>
+<button bindtap='goToTax'>税务需求</button>
+<button bindtap='goToLaw'>法务需求</button>
+<button bindtap='publish'>发布需求</button>

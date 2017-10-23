@@ -1,0 +1,53 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.navigator{
+  display: flex;
+  height: 4em;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;/*垂直居中*/
+
+}
+
+.needsContainer{
+  display: flex;
+  flex-direction:column;
+}
+
+.needs_outline{
+  display: flex;
+  flex-direction:row;
+  padding-left: 10px;
+}
+
+.needs_content{
+  display: flex;
+  flex-direction:column;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.needs_content .title{
+  font-size: 20px;
+  height: 30px;
+}
+
+.needs_content .content{
+  width:14.5em;
+  display: flex;
+  flex-direction:row;
+  color:#666666;
+  justify-content:space-between;
+}
+
+.needs_content .content .item{
+}

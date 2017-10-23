@@ -1,0 +1,21 @@
+{
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "需求列表"
+      },
+      {
+        "pagePath": "pages/myneeds/index",
+        "text": "我的需求"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

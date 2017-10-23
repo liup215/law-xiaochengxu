@@ -1,0 +1,11 @@
+<form bindsubmit="formBindsubmit">
+  <view class='section'>
+    <input name='phoneNumber' type='text' placeholder='请输入手机号' confirm-type='done'></input>
+  </view>
+
+  <view class='section'>
+    <input name='password' type='text' placeholder='请输入密码' confirm-type='done'></input>
+  </view>
+  <button form-type='submit'>登录</button>
+</form>
+<text bindtap='register'>没有账号，去注册</text>
